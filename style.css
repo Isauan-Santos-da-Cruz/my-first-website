@@ -1,0 +1,46 @@
+body{
+  color: white;
+  background : black;
+  font-family:Arial sans-serif;
+  
+}
+
+.container{
+  
+  padding:20px 20px;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding:16px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+div nav ul li a.hover {
+  color:#03B4FF;
+}
+
+header img{
+  border:3px solid seagreen;
+  border-radius:100px;
+  width:200px;
+  height:260px;
+}
+.center{
+  text-align:center;
+}
+
+footer a img{
+  width: 100px;
+  
+}
+footer{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
